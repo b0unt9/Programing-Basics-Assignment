@@ -14,4 +14,6 @@ int main()
 	hour=hour%24;
 	
 	printf("%d %d %d %d", day, hour, min, sec);
+
+	return 0;
 }
