@@ -7,6 +7,6 @@ int main()
 	scanf("%d %d %d %d", &a, &b, &c, &d);
 	e = a+b+c+d;
 	f = d/e*100;
-	printf("%.2f\%%", f);
+	printf("%.2f%%", f);
 	return 0;
 }
