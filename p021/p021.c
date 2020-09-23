@@ -9,10 +9,11 @@ int main()
         
     length = strlen(text)+1;
     
-    for(i=1; i<=length ;i++)
+    for(i=1; i<length ;i++)
     {
-        for(j=0; j<i-1; j++)
+    	printf("*");
+        for(j=0; j<i; j++)
             printf("%c",text[j]);
-        printf("*\n");
+        printf("%*s\n", length-i, "*");
     }
 }
