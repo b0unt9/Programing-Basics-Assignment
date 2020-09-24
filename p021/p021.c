@@ -3,17 +3,21 @@
 int main()
 {
 	char text[21];
+	int i, j, k, length;
+	
 	scanf("%s", text);
 	
-	int i, j, length;
-        
-    length = strlen(text)+1;
+    length = strlen(text);
     
-    for(i=1; i<length ;i++)
+    for(i=1; i<=length ;i++)
     {
     	printf("*");
         for(j=0; j<i; j++)
             printf("%c",text[j]);
-        printf("%*s\n", length-i, "*");
+
+        for(k=length; k>i; k--)
+            printf(" ");
+        
+        printf("*\n");
     }
 }

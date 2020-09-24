@@ -1,15 +1,20 @@
 #include <stdio.h>
-#define _CRT_SECURE_NO_WARNINGS
 
 int main()
 {
-	char fname[10], lname[10];
-	float a, b, c, score;
-	scanf("%s %s", fname, lname);
-	scanf("%f %f %f", &a, &b, &c);
-	score = (a+b+c)/3;
+	char fname[11], lname[11];
 	
-	printf("\"%s %*s\"        %.1f", fname, 23-strlen(lname), lname, score);
+	int a, b, c;
+	
+	double score;
+	
+	scanf("%s %s", fname, lname);
+	
+	scanf("%d %d %d", &a, &b, &c);
+	
+	score = (a+b+c)/3.0;
+	
+	printf("\"%-10s %10s\" %8.1f", fname, lname, score);
 	
 	return 0;
 }

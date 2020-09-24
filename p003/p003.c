@@ -2,10 +2,13 @@
 #define _CRT_SECURE_NO_WARNINGS
 
 int main() {
-    double a;
+    double inch, centimeter;
 
-    scanf("%lf", &a);
-    printf("%.2lf\n", a*2.54);
-
+    scanf("%lf", &inch);
+    
+    centimeter = inch*2.54
+    
+    printf("%.2lf\n", centimeter);
+    
     return 0;
 }

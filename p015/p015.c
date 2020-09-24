@@ -3,7 +3,7 @@
 
 int main()
 {
-	char fname[30], lname[30];
+	char fname[31], lname[31];
 	
 	scanf("%s %s", &fname, &lname);
 	

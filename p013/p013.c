@@ -1,12 +1,17 @@
 #include <stdio.h>
-#define _CRT_SECURE_NO_WARNINGS
 
 int main()
 {
-	double a, b, c, d, e, f;
+	
+	int a, b, c, d;
+	
+	double result;
+	
 	scanf("%d %d %d %d", &a, &b, &c, &d);
-	e = a+b+c+d;
-	f = d/e*100;
-	printf("%.2f%%", f);
+	
+	result = d/(double) (a+b+c+d)*100.0;
+	
+	printf("%.2f%%", result);
+	
 	return 0;
 }

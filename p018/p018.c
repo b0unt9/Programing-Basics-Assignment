@@ -2,19 +2,18 @@
 
 int main()
 {
-	long long int a, b, c, d;
+	long long int n, m, a, b;
 	long long int sum = 0;
-	scanf("%lld %lld", &a, &b);
 	
-	c = a - b;
-	d = a + b;
+	scanf("%lld %lld", &n, &m);
+
+	a = n - m;
+	b = n + m;
 	
-	for (; c<=d ; c++)
+	for (; a<=b; a++)
     {
-        sum = sum + c;
+        sum = sum + a;
     }
-    
-    
     
 	printf("%lld", sum);
 	return 0;

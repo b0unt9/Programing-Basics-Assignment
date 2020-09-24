@@ -1,14 +1,16 @@
 #include <stdio.h>
-#define _CRT_SECURE_NO_WARNINGS
 
 int main() {
-	float a = 3.0e-23;
-	float b = 950;
-	float c, d;
+
+	const float mole = 3.0e-23;
+	const float quart = 950;
+	float input, result;
 	
-	scanf("%f", &c);
-	d = c*b/a;
-	printf("%e\n", d);
+	scanf("%f", &input);
+	
+	result = input * quart / mole;
+	
+	printf("%e\n", result);
 	
 	return 0;
 }

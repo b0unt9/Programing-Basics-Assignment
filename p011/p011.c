@@ -1,12 +1,14 @@
 #include <stdio.h>
-#define _CRT_SECURE_NO_WARNINGS
 
 int main()
 {
-	float a, b;
+	double mbs, mb, result;
 
-	scanf("%f %f", &a, &b);
-	printf("%.2fsec\n", b/a*8);
+	scanf("%lf %lf", &mbs, &mb);
+	
+	result = mb / mbs * 8;
+	
+	printf("%.2lfsec\n", result);
 
 	return 0;
 }

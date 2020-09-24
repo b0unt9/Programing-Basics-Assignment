@@ -3,8 +3,8 @@
 int main()
 {
 	int day;
-	long long int sum = 0;
 	int count = 1;
+	long long int sum = 0;
 	
 	scanf("%d", &day);
 	
@@ -14,9 +14,7 @@ int main()
 		count++;
 	}
 	
-	sum = sum*1000;
-	
-	printf("%lld\n", sum);
+	printf("%lld\n", sum*1000);
 	
 	return 0;
 }

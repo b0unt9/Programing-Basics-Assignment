@@ -1,21 +1,20 @@
 #include <stdio.h>
-#define _CRT_SECURE_NO_WARNINGS
 
 int main()
 {
-	double a, b, c, d, e;
+	double cups, pints, ounces, teaspoons, tablespoons;
 	
-	scanf("%lf", &a);
+	scanf("%lf", &cups);
 	
-	b = a / 2;
-	c = a * 8;
-	e = c * 2;
-	d = e * 3;
+	pints = cups / 2;
+	ounces = cups * 8;
+	tablespoons = ounces * 2;
+	teaspoons = tablespoons * 3;
 	
-	printf("%lf cups are equivalent to each of the following:\n", a);
-	printf("%f pints\n", b);
-	printf("%f tablespoons\n", e);
-	printf("%f teaspoons\n", d);
+	printf("%lf cups are equivalent to each of the following:\n", cups);
+	printf("%lf pints\n", pints);
+	printf("%lf tablespoons\n", tablespoons);
+	printf("%lf teaspoons\n", teaspoons);
 	
 	return 0;
 }

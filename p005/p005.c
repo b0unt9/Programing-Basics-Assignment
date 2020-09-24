@@ -1,12 +1,13 @@
 #include <stdio.h>
-#define _CRT_SECURE_NO_WARNINGS
 
 int main() {
-	long int a, b;
+	long int num1, num2;
 
-	scanf("%d", &a);
-	scanf("%d", &b);
-	printf("%d", a+b);
+	scanf("%d", &num1);
+	
+	scanf("%d", &num2);
+	
+	printf("%d", num1+num2);
 
 	return 0;
 }
