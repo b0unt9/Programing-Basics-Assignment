@@ -2,9 +2,9 @@
 
 int main(void)
 {
-    int a, b, check;
+    int a, b;
 
-	while(check = scanf("%d %d", &a, &b), check == 2 && a < b)
+	while(scanf("%d %d", &a, &b) == 2 && a < b)
 	{
         int sum = 0;
 

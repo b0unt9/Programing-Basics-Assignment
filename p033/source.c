@@ -17,8 +17,6 @@ int main(void)
         }
 
         printf("%.5lf %.5lf", a, b);
-    } else {
-        return 0;
     }
 
     return 0;
