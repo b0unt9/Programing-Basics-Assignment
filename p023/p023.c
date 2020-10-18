@@ -7,7 +7,7 @@ int main()
 	
 	scanf("%lld %lld %lld %lld %lld", &r1, &r2, &r3, &r4, &r5);
 	
-	reseult = r1 + r5 + (double) ((r2+r3)*r4)/(r2+r3+r4)
+	reseult = r1 + r5 + (double) ((r2+r3)*r4)/(r2+r3+r4);
 	
 	printf("%.5f", reseult);
 
