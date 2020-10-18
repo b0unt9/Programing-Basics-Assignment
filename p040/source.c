@@ -8,8 +8,12 @@ int main(void)
 
     for(i = 2; i*i <= input; i++)
     {
-        if(input%i==0) if(i*i == input) count++;
-        else count += 2;
+        if(input%i==0) {
+            if(i*i == input) {
+                count++;
+            } else count += 2;
+        }
+        
     }
 
     printf("%lld", count);
