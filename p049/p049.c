@@ -6,8 +6,7 @@ int main(void)
 {
 	double i, j;
 
-	while (scanf("%lf %lf", &i, &j) == 2) 
-        printf("%.3lf\n", harmonic(i, j));
+	while (scanf("%lf %lf", &i, &j) == 2) printf("%.3lf\n", harmonic(i, j));
 
 	return 0;
 }

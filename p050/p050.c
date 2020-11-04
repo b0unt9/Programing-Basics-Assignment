@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void sort(double *i, double *j, double *k);
+void fun(double *i, double *j, double *k);
 
 int main(void)
 {
@@ -8,7 +8,7 @@ int main(void)
 	
 	while (scanf("%lf %lf %lf", &i, &j, &k) == 3)
 	{
-		sort(&i, &j, &k);
+		fun(&i, &j, &k);
 		printf("%.6lf %.6lf %.6lf\n", i, j, k);
 	}
 
@@ -16,7 +16,7 @@ int main(void)
 
 }
 
-void sort(double *i, double *j, double *k)
+void fun(double *i, double *j, double *k)
 {
     double temp;
 
